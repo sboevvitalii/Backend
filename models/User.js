@@ -31,9 +31,6 @@ const UserSchema = mongoose.Schema(
   { timestamps: true }
 );
 
-// Индекс для ускорения поиска по логину
-UserSchema.index({ login: 1 });
-
 const User = mongoose.model("User", UserSchema);
 
 module.exports = User;

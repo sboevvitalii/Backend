@@ -1,4 +1,15 @@
-# Игнорировать .env файл
-.env
+# Игнорировать node_modules
 node_modules/
-node_modules
+
+# Игнорировать файлы окружения
+.env
+
+# Игнорировать логи
+logs/
+
+# Игнорировать файлы IDE
+.vscode/
+.idea/
+
+# Игнорировать coverage (если используете тесты)
+coverage/
